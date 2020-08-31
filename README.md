@@ -1,6 +1,6 @@
 # Flight-Booking-System
 
-CS 257 Course Project - Done under the Giudance of Dr.Aruna Tiwari
+CS 257 Course Project - Done under the guidance of Dr.Aruna Tiwari
 
 Members:
 
