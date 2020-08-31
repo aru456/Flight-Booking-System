@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html><head>
+				<style>
+					body {background-image: url("background.jpg");
+				}
+				h1   {color: black;font-family: verdana;font-size: 200%; }
+				td{
+            width:200px;
+			font-size:25px;
+			padding:5px ;
+			text-align:center;
+        }
+				</style>
+				</head>
+	<head>
+		<meta charset="utf-8">
+		<title>Login Form </title>
+		<link rel="stylesheet" href="login.css">
+	</head>
+	<body>
+		<div class="login-form">
+			<p style="text-align:center;"><font size="5">Hassle free Flght Bookings can be done through this website from anywhere in just minutes !</font></p> <br><br><br>
+			<h2 style="text-align:center;">Please Login to proceed for booking  </h2><br><br><br>
+			
+			<center>
+			<table>
+				<tr>
+			<form action="log__in.php" method="POST">
+				<td>Username:</td><td><input type="email" name="username" placeholder="example@gmail.com" ></td></tr>
+				<tr><td>Password:</td><td><input type="password" name="password" placeholder="" ></td></tr>
+				<tr><td colspan="2"><input type="submit" name="ad" style="margin-top: 5px;" class="btn btn-success"
+									   value="SIGN IN" ></td></tr>					  
+                <tr><td colspan="2"> <input type="submit" name="cartad" style="margin-top: 10px;" class="btn btn-success"
+                                       value="SIGN UP">  </td> </tr> 
+			</form>
+		
+		</table>
+		Don't have an account?? Click SIGN UP above.
+	</center>
+	
+		</div>
+	</body>
+</html>
